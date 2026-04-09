@@ -1,0 +1,62 @@
+############################
+# JetBrains / GoLand
+############################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.xml
+out/
+
+############################
+# Go build/test artifacts
+############################
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Common build output dirs
+bin/
+dist/
+build/
+
+# Coverage / profiling
+coverage/
+coverage.*.out
+*.coverprofile
+*.prof
+
+# Dependency cache (optional)
+vendor/
+
+############################
+# Runtime / local config
+############################
+# Go workspace files (often local-only)
+go.work
+go.work.sum
+
+.env
+.env.*
+*.local
+
+# Logs
+*.log
+logs/
+
+# Temp files
+tmp/
+.tmp/
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+
+/storage
+storage
+*.db
